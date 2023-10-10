@@ -393,6 +393,8 @@ img {
   background: #333;
   color: #fff;
   height: 5rem; }
+  #main-footer a {
+    color: #fff; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;

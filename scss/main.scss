@@ -231,6 +231,8 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
+            border-radius: 5%;
+            color: #fff;
         }
 
         .award-1 {
@@ -250,6 +252,7 @@ img {
             margin: 1rem;
         }
     }
+    
     // About B
     &-b {
         .progress {
@@ -267,18 +270,20 @@ img {
             }
         }
     }
+    
     // About C
-    &-c {
-        .about-logos {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 2rem;
+    // &-c {
+    //     .about-logos {
+    //         display: grid;
+    //         grid-template-columns: repeat(4, 1fr);
+    //         grid-gap: 2rem;
 
-            img {
-                width: 70%;
-            }
-        }
-    }
+    //         img {
+    //             width: 70%;
+    //         }
+    //     }
+    // }
+    
     // About D
     &-d {
         .testimonials {

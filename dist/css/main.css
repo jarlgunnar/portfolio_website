@@ -303,7 +303,9 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #c586ff;
-  padding: 0.8rem; }
+  padding: 0.8rem;
+  border-radius: 5%;
+  color: #fff; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -331,13 +333,6 @@ img {
     color: #fff;
     text-align: center;
     background: #c586ff; }
-
-#about-c .about-logos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
-  #about-c .about-logos img {
-    width: 70%; }
 
 #about-d .testimonials {
   display: grid;
